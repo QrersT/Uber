@@ -1,0 +1,27 @@
+.promo {
+  background: url(../img/header/uber_bg.png) center center/cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 140px 0 180px;
+}
+
+.promo__title {
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+
+.promo__text {
+  margin-bottom: 81px;
+  margin-top: 20px;
+}
+
+.promo__text p {
+  margin-bottom: 35px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.btn_promo {
+  padding: 21px 38px;
+}

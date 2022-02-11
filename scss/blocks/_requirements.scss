@@ -1,0 +1,53 @@
+.requirements {
+  padding: 65px 0 90px;
+}
+
+.requirements__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.requirements__item {
+  margin-top: 30px;
+  width: 500px;
+}
+
+.requirements__item-title {
+  color: #1eacc7;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.requirements__item-title_red {
+  color: #ff5656;
+}
+
+.requirements__item-list {
+  list-style: none;
+  li {
+    padding-left: 40px;
+    position: relative;
+    line-height: 26px;
+    &::before {
+      content: "";
+      position: absolute;
+      background: url(../img/requirements/rectangle_blue.png);
+      width: 21px;
+      height: 20px;
+      left: 0;
+      top: 4px;
+    }
+  }
+  &_red {
+    li::before {
+      background: url(../img/requirements/rectangle_red.png);
+    }
+  }
+}
+
+.requirements__item-text {
+  color: #1eacc7;
+  font-size: 17px;
+  margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+@media (max-width: 1050px) {
+  .reasons__items {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .reasons__item {
+    max-width: 430px;
+  }
+  .reasons__item-text {
+    max-width: 290px;
+  }
+}
+
+@media (max-width: 470px) {
+  .title {
+    font-size: 27px;
+  }
+  .reasons__item {
+    flex-direction: column;
+  }
+  .reasons__item-text {
+    max-width: none;
+    margin-top: 15px;
+  }
+}

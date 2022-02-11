@@ -1,0 +1,93 @@
+.mobile {
+  background: url(../img/mobile/mobile_bg.png) center center/cover no-repeat;
+  padding: 50px 0 80px;
+}
+
+.mobile__item-title {
+  width: 270px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+
+  font-size: 24px;
+  line-height: 1.4; /*31px */
+}
+
+.mobile__title {
+  margin-top: 35px;
+}
+
+.mobile__subtitle {
+  margin: 15px 0;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.mobile__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mobile__item {
+  min-height: 280px;
+  width: 320px;
+  margin-top: 20px;
+  padding: 80px 20px 35px;
+  position: relative;
+}
+
+.mobile__item_1 {
+  background: url(../img/mobile/card_1.png) center center/cover no-repeat;
+}
+
+.mobile__item_2 {
+  background: url(../img/mobile/card_2.png) center center/cover no-repeat;
+}
+
+.mobile__item_3 {
+  background: url(../img/mobile/card_3.png) center center/cover no-repeat;
+}
+
+.mobile__item_4 {
+  background: url(../img/mobile/card_4.png) center center/cover no-repeat;
+}
+
+.mobile__item_5 {
+  background: url(../img/mobile/card_5.png) center center/cover no-repeat;
+}
+
+.mobile__item_6 {
+  background: url(../img/mobile/card_6.png) center center/cover no-repeat;
+}
+
+.mobile__text {
+  color: #ffffff;
+  font-weight: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 85px 20px 0 35px;
+  line-height: 31px;
+  font-weight: 400;
+}
+
+.mobile__item-link {
+  display: inline-block;
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #000000;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,70 @@
+@media (max-width: 740px) {
+  .choise__circle {
+    max-width: 480px;
+    height: 220px;
+  }
+  .choise__bottom {
+    padding: 210px 0 0;
+  }
+}
+
+@media (max-width: 590px) {
+  .choise__circle {
+    max-width: 400px;
+  }
+
+  .choise__circle-img {
+    bottom: -110px;
+  }
+
+  .choise__bottom {
+    padding: 150px 0 0;
+  }
+}
+
+@media (max-width: 470px) {
+  .choise__title {
+    display: none;
+  }
+
+  .choise__subtitle {
+    display: none;
+  }
+
+  .choise__circle {
+    max-width: 330px;
+    height: 190px;
+    margin-top: 20px;
+  }
+
+  .choise__circle-img {
+    bottom: -70px;
+  }
+
+  .choise__circle-text {
+    font-size: 30px;
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .choise__bottom {
+    padding: 100px 0 80px;
+    background: #000000;
+  }
+
+  .choise__text {
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 410px) {
+  .choise__circle {
+    max-width: 260px;
+    height: 138px;
+    padding-top: 5px;
+  }
+  .choise__text {
+    max-width: 300px;
+  }
+}

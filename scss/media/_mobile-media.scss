@@ -1,0 +1,15 @@
+@media (max-width: 1020px) {
+  .mobile__items {
+    justify-content: space-evenly;
+  }
+
+  .mobile__item {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .mobile__item {
+    width: 300px;
+  }
+}
